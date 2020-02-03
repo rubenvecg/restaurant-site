@@ -1,0 +1,173 @@
+.main-content{
+	width: 1080px;
+	margin:  0 auto;
+}
+
+body{
+	font-family: Arial Black,sans serif;
+	color: #1D3969;
+	background-color: #EACAA0;	
+}
+
+h1,h2,h3{
+	font-family: Impact, Arial Black,sans serif;
+	color: #BE2026;
+}
+
+.red-big-text{
+	color: #BE2026;
+	font-size: 30px;
+	font-family: Impact, Arial Black,sans serif;
+}
+
+hr{
+	border: 2px dashed #1D3969;	
+}
+
+
+.logo{	
+	float:left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.nav-menu{	
+	float:right;
+	margin-right: 50px;
+	margin-top: 50px;
+	list-style-type: none;	
+}
+
+.nav-menu li{
+	font-family: Impact, Arial Black,sans serif;
+	display: inline;
+	padding: 25px;
+	font-size: 30px;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #BE2026;
+}
+
+a:hover{
+	color: #1D3969;
+}
+
+a:active{
+	color: #1D3969;
+}
+
+.video-heading{
+	position: relative;	
+}
+
+.video-caption-container{
+	 position: absolute;
+	 width: 100%;
+	 top: 30%;	 
+}
+
+.video-caption{
+	font-size: 72px;
+	text-align: center;
+	text-shadow: 2px 2px #000;
+	opacity: 0.80;
+}
+
+video{
+	display: block;
+	margin: auto;
+	width: 85%;	
+	border-radius: 20px;
+	filter: opacity(60%);
+}
+
+table{
+	margin: 10px auto auto auto;	
+}
+
+td{
+	text-align: center;
+	margin: auto;
+}
+
+.menu-item{
+	width: 300px;
+	height: 275px;
+}
+
+.item-name, .item-price{
+	text-align: left;
+}
+
+
+
+footer{
+	margin-top: 10px;
+}
+
+.icon{
+	width: 16px;
+	height: 16px;
+}
+
+.left-side{
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.right-side{
+	float: right;
+	margin-right: 10px;
+}
+
+.center{
+	text-align: center
+}
+
+
+
+
+#quote-out-container{
+	width: 1080px;
+	height: 150px;	
+	border-radius: 10px;
+	background-image: url("../img/div-background.png");
+	background-size: cover;
+}
+
+#quote-in-container{
+	width: 900px;
+	background-color: #1D3969;
+	height: auto;
+	float: right;
+	margin: -45px 20px auto auto;
+	border-radius: 10px;
+	opacity: 0.8;
+	color: white;
+}
+
+#quote-in-container a{
+	color: white;
+}
+
+#quote-in-container a:hover{
+	color: #BE2026;
+}
+
+q{
+	font-style: italic;	
+}
+
+.map{
+	display: block;
+	margin: auto auto 10px auto;
+}
+
+
+
+
+
